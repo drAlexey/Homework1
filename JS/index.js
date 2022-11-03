@@ -19,3 +19,33 @@ console.log(cash-((priceOne+priceTwo+priceThree)-(Math.round(Math.random()*100))
 
 
 
+
+let max = (Math.max(priceOne,priceTwo,priceThree));
+console.log(max);
+
+let min=(Math.min(priceOne,priceTwo,priceThree));
+console.log(min);
+
+let total=(priceOne+priceTwo+priceThree);
+console.log(total);
+
+let round= (Math.round(priceOne+priceTwo+priceThree));
+console.log(round);
+
+let totalOdd=((priceOne+priceTwo+priceThree)%2);
+console.log(totalOdd);
+
+let change=(cash-(priceOne+priceTwo+priceThree));
+console.log(change);
+
+let averageCost=((priceOne+priceTwo+priceThree)/3);
+console.log(averageCost);
+
+let randomDiscount = (Math.round(Math.random()*100));
+console.log(randomDiscount);
+
+let totalDiscountPrice =((priceOne+priceTwo+priceThree)-(Math.round(Math.random()*100)));
+console.log(totalDiscountPrice);
+
+let discount = (cash-((priceOne+priceTwo+priceThree)-(Math.round(Math.random()*100)))-(cash-(priceOne+priceTwo+priceThree)));
+console.log(discount);
